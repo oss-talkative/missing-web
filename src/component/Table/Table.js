@@ -7,7 +7,7 @@ function Table({ list, colNames, width = "auto", height = "auto"
     const [data, setDate] = useState(null);
     const onClick = async() => {
         try{
-            const response = await axios.get('https://kseenyoung.pythonanywhere.com/',);
+            const response = await axios.get('https://kseenyoung.pythonanywhere.com/allFoundChild',);
             setDate(response.data);
         } catch(e) {
             console.log(e)
