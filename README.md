@@ -1,7 +1,7 @@
 # missing-web (Admin page)
 <3주차>
 
-<img src=https://user-images.githubusercontent.com/95032287/203375830-1ad078a7-5f79-4e3f-8163-f743a6757c11.png/>
+<img width="960" alt="화면 캡처 2022-11-23 020011" src="https://user-images.githubusercontent.com/95032287/203375830-1ad078a7-5f79-4e3f-8163-f743a6757c11.png">
 
 
 ### `npm start`
