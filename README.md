@@ -1,7 +1,7 @@
 # missing-web (Admin page)
 <3주차>
 
-<img src=https://user-images.githubusercontent.com/95032287/203374897-07aa66f1-6799-45d5-9c80-7f6f40bc1630.png/>
+<img src=https://user-images.githubusercontent.com/95032287/203375221-137986f3-85e6-41ab-aa55-a217c90efa5e.png/>
 
 
 ### `npm start`
