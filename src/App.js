@@ -1,14 +1,11 @@
 import React, {Component, useState} from "react";
 import './App.css';
-//import Users from './users'
 import axios from 'axios';
-
-//import Table from './component/Table/Table'
 
 /* 발생일: new Date('1997-03-06') 과 같이 new Date 사용 시, 화면이 나타나지 않음 */
 
 function Table({ list, colNames, width = "auto", height = "auto"
-}){   {/* api 확인을 위한 부분 (7 ~ 15)*/}
+}){
     const [data, setDate] = useState(null);
     const onClick = async() => {
         try{
@@ -24,10 +21,9 @@ function Table({ list, colNames, width = "auto", height = "auto"
             <h2> 실종 아동 신고 어드민 페이지 <img src="https://user-images.githubusercontent.com/95032287/202388454-3f650c2e-0c64-40ef-badf-76910c0a8fd1.png" width = "10%" height = "10%"/></h2> {/* 페이지 상단 제목 */}
             <p>신고 접수 현황 확인이 가능합니다</p> {/* 페이지 부가 설명 */}
             
-            {/* api 확인을 위한 부분 (23, 24)*/}
-            {/*<button onClick={onClick}> 불러오기 </button>
+            <button onClick={onClick}> 불러오기 </button>
             {data && <textarea rows={15} value={JSON.stringify(data, null,2)} readOnly={true}/>}
-            <br /><br /><br />*/}
+            <br /><br /><br />
 
             <button onClick={onClick}>예쁘게 불러오기</button>
       <br /><br />
