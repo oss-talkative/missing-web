@@ -24,9 +24,10 @@ function App() {
     { heading: '성별', value: 'username' },
     { heading: '당시 나이', value: 'phone' },
     { heading: '현재 나이', value: 'website' },
-    { heading: '착의 사항', value: 'name' },
+    { heading: '착의사항', value: 'name' },
     { heading: '발생 장소', value: 'address.city' },
     { heading: '발생일', value: 'address.suite' },
+    { heading: '신고 내용', value: 'company.catchPhrase'}
   ]
 
   return (
