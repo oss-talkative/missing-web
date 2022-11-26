@@ -21,7 +21,7 @@ function App() {
     { heading: '착의사항', value: 'alldressing' },
     { heading: '발생 장소', value: 'occrAdd' },
     { heading: '발생일', value: 'occrDate' },
-    { heading: '신고 유형', value: 'writingTarget' },
+    { heading: '신고 유형', value: 'writngTarget' },
     { heading: '신고 내용', value: 'inform' }
   ]
 
